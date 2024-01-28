@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Biker Zone</title>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,8 @@
 
 <body>
   <header>
-    <nav class="md:container md:mx-auto md:px-24 mt-[56px] w-full">
+    <!-- Navbar -->
+    <nav class="lg:container lg:mx-auto lg:px-24 mt-[56px]">
       <div class="navbar">
         <div class="navbar-start">
           <div class="dropdown">
@@ -55,7 +56,8 @@
       </div>
     </nav>
   </header>
-  <main class="mt-[56px] container mx-auto px-4 lg:px-24">
+  <main class="mt-[56px] container mx-auto px-4 lg:px-24 w-[600px] lg:w-auto">
+    <!-- Slider -->
     <div class="carousel w-full lg:h-[550px] bg-[#E76F511A]">
       <div id="slide1" class="carousel-item relative w-full">
         <div class="p-24 flex flex-col lg:flex-row gap-[170px]">
@@ -118,7 +120,7 @@
         </div>
       </div>
     </div>
-
+    <!-- Bike images -->
     <div class="mt-[169px] container mx-auto px-24 text-center">
       <div>
         <h1 class="text-5xl font-semibold text-[#000] font-poppins">Featured Bikes In This Year</h1>
@@ -130,12 +132,15 @@
         <img src="images/others/feature-bike.png" alt="">
       </div>
     </div>
-
+    <!-- Latest bikes card images -->
     <div class="container mx-auto px-24 mt-[130px]">
+      <!-- Bike card captions -->
       <div class="text-center">
         <h1 class="capitalize text-5xl text-[#000] font-semibold">latest bikes</h1>
       </div>
+      <!-- Bike card container -->
       <div class="mt-[50px] flex flex-col lg:flex-row gap-14 lg:gap-5">
+      <!-- Bike1 -->
         <div class="card w-96 bg-base-100 shadow-xl">
           <figure><img src="images/others/latest1.png" alt="" /></figure>
           <div class="card-body">
@@ -149,7 +154,7 @@
             </div>
           </div>
         </div>
-
+      <!-- Bike2 -->
         <div class="card w-96 bg-base-100 shadow-xl">
           <figure><img src="images/others/latest2.png" alt="" /></figure>
           <div class="card-body">
@@ -163,7 +168,7 @@
             </div>
           </div>
         </div>
-
+      <!-- Bike3 -->
         <div class="card w-96 bg-base-100 shadow-xl">
           <figure><img src="images/others/latest3.png" alt="" /></figure>
           <div class="card-body">
@@ -179,12 +184,15 @@
         </div>
       </div>
     </div>
+    <!-- Happy clients cards -->
     <div class="mt-[130px]">
+      <!-- Happy clients caption -->
       <div class="container mx-auto px-24">
         <h1 class="text-5xl text-[#000] font-semibold text-center">Happy <span class="text-[#E76F51]">Clients
             says</span></h1>
       </div>
       <div class="mt-12 container mx-auto px-24 grid grid-cols-1 lg:grid-cols-3 gap-11">
+        <!-- Client1 -->
         <div class="card w-96 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
             <img src="images/others/user-1.png" alt="Shoes" class="rounded-xl w-36 h-36" />
@@ -211,6 +219,7 @@
             </div>
           </div>
         </div>
+        <!-- Client2 -->
         <div class="card w-96 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
             <img src="images/others/user-2.png" alt="Shoes" class="rounded-xl w-36 h-36" />
@@ -237,6 +246,7 @@
             </div>
           </div>
         </div>
+        <!-- Client3 -->
         <div class="card w-96 bg-base-100 shadow-xl">
           <figure class="px-10 pt-10">
             <img src="images/others/user-3.png" alt="Shoes" class="rounded-xl w-36 h-36" />
@@ -265,6 +275,7 @@
         </div>
       </div>
     </div>
+    <!-- FAQ Section -->
     <div class="container mx-auto px-24 mt-32">
       <div class="container mx-auto px-24 ">
         <h1 class="text-5xl text-[#000] font-semibold text-center">Frequently Asked <span class="text-[#E76F51]">Questions
@@ -317,7 +328,8 @@ new one?
     </div>
   </div>
   </main>
-  <footer class="footer p-10 bg-neutral text-neutral-content mt-32">
+  <!-- Footer -->
+  <footer class="footer p-10 bg-neutral text-neutral-content mt-32 w-[602px] lg:w-auto">
     <div class="container mx-auto px-24 flex flex-col lg:flex-row gap-14 lg:gap-[475px]">
       <div>
     <div>
@@ -325,7 +337,7 @@ new one?
     </div>
     <br>
     <div>
-      <ul class="flex gap-6 flex-wrap md:flex-row">
+      <ul class="flex gap-6">
         <li>About</li>
         <li>Features</li>
         <li>Pricing</li>
@@ -334,7 +346,7 @@ new one?
         <li>Privacy Policy</li>
       </ul>
     </div>
-    <div class="lg:mt-6 mt-12">
+    <div class="mt-6">
       <p>© 2020 bike.All right reserved</p>
     </div>
   </div>
